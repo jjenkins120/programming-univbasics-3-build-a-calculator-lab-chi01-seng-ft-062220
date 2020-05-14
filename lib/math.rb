@@ -17,13 +17,13 @@ def division(num1, num2)
 end
 
 def multiplication(num1, num2)
-  product = modulo(num2,num1)
+  product = num1 * num2
   puts product
   product
 end
 
 def modulo(num1, num2)
-  modulus = 
+  modulus = num1.modulo(num2)
   puts modulus
   modulus
 end
